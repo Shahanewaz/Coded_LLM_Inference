@@ -1,0 +1,4205 @@
+{
+ "result": {
+  "one_sided": [
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     2
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     6,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     6,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     3
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     0
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     3
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     5
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     6,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 4,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     3,
+     4,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     6,
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     3,
+     4,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     3,
+     5,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     3,
+     4,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     3,
+     4,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     2,
+     3,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     5,
+     6,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     3,
+     4,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     4,
+     5,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     3,
+     4,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     3,
+     6,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     4,
+     5,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     4,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     5,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     4,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     4
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     3,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     4,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     2,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     3,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     3
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     3
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     4,
+     5
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     3
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     1,
+     5
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     4,
+     5
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     3,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     3,
+     4
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     3
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     4
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     3
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     1,
+     4
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     3,
+     4
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     4,
+     5
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 6,
+    "k": 2,
+    "T": 1,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     2
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     6,
+     7,
+     9,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     10
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     4,
+     6,
+     7,
+     8
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     3,
+     4,
+     6
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     9
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     5,
+     6,
+     7,
+     8,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     8
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     1,
+     2,
+     8,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     4,
+     5,
+     8,
+     9
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     11
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     3,
+     4,
+     5,
+     7
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     1,
+     5,
+     6,
+     8
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     6
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     5,
+     6,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     3,
+     4,
+     8,
+     9
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     4,
+     7,
+     8,
+     9
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     1,
+     4,
+     9,
+     11
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     6
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     2,
+     3,
+     6,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     2,
+     3,
+     10,
+     11
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     6,
+     11
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     7,
+     8,
+     10,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     3,
+     5,
+     8,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     4
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 3,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     6,
+     7,
+     9,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     2,
+     5,
+     9
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     14
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     8,
+     9,
+     12
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     4,
+     5,
+     10,
+     15
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     8
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     4,
+     6,
+     13
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     7,
+     8,
+     12
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     10
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     4,
+     6,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     5,
+     9,
+     12,
+     15
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     9
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     8,
+     9,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     3,
+     14
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     6,
+     7
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     4,
+     8
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     4,
+     10,
+     15
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     7,
+     11
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     13,
+     14,
+     15
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     8,
+     10,
+     15
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     4,
+     5,
+     13
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     3,
+     9,
+     14
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     12
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     9,
+     10,
+     12,
+     13
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     4,
+     6,
+     15
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     5
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 16,
+    "k": 8,
+    "T": 4,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     4,
+     7,
+     12
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     4,
+     6,
+     7,
+     8
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     7,
+     8
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     6,
+     7,
+     8
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     4,
+     7
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     6,
+     10
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     0,
+     5,
+     9,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     2,
+     4,
+     9,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     6
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     256,
+     1536,
+     8960
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     2,
+     6,
+     9
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     5,
+     8
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     8,
+     10
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     7,
+     9,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     3,
+     6,
+     7,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     8
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     4,
+     9,
+     10
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     2,
+     5,
+     8
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     3,
+     8
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     1024,
+     2048,
+     2048
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     4,
+     8,
+     10,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     1,
+     7,
+     9,
+     11
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     9
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     2,
+     6,
+     8,
+     9
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     3,
+     6,
+     9
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     7,
+     10
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     5,
+     6,
+     10,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "clean",
+    "stragglers": [],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "stragglers",
+    "stragglers": [
+     0,
+     2,
+     8,
+     10
+    ],
+    "byzantine": [],
+    "result": "ok",
+    "exact": true,
+    "flagged": 0
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_correct",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     4
+    ],
+    "result": "ok",
+    "exact": true,
+    "flagged": 1
+   },
+   {
+    "N": 12,
+    "k": 6,
+    "T": 2,
+    "shape": [
+     37,
+     896,
+     4864
+    ],
+    "scenario": "byz_detect",
+    "stragglers": [],
+    "byzantine": [
+     1,
+     4,
+     10,
+     11
+    ],
+    "result": "aborted",
+    "msg": "tampering detected but not correctable: abort"
+   }
+  ],
+  "two_sided": [
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "m": 512,
+    "n": 512,
+    "d": 128,
+    "threshold": 7,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   },
+   {
+    "N": 8,
+    "k": 2,
+    "T": 2,
+    "m": 100,
+    "n": 300,
+    "d": 64,
+    "threshold": 7,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   },
+   {
+    "N": 8,
+    "k": 1,
+    "T": 2,
+    "m": 512,
+    "n": 512,
+    "d": 128,
+    "threshold": 5,
+    "exact": true,
+    "one_byzantine": "corrected",
+    "redundancy": 3
+   },
+   {
+    "N": 8,
+    "k": 1,
+    "T": 2,
+    "m": 100,
+    "n": 300,
+    "d": 64,
+    "threshold": 5,
+    "exact": true,
+    "one_byzantine": "corrected",
+    "redundancy": 3
+   },
+   {
+    "N": 8,
+    "k": 3,
+    "T": 1,
+    "m": 512,
+    "n": 512,
+    "d": 128,
+    "threshold": 7,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   },
+   {
+    "N": 8,
+    "k": 3,
+    "T": 1,
+    "m": 100,
+    "n": 300,
+    "d": 64,
+    "threshold": 7,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 2,
+    "m": 512,
+    "n": 512,
+    "d": 128,
+    "threshold": 11,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   },
+   {
+    "N": 12,
+    "k": 4,
+    "T": 2,
+    "m": 100,
+    "n": 300,
+    "d": 64,
+    "threshold": 11,
+    "exact": true,
+    "one_byzantine": "detected/aborted",
+    "redundancy": 1
+   }
+  ],
+  "summary": {
+   "records": 216,
+   "ok": 162,
+   "exact_ok": 162,
+   "aborted": 54
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "stages": [
+    "timing",
+    "stress",
+    "attention",
+    "generate",
+    "privacy",
+    "tasks"
+   ],
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "HuggingFaceTB/SmolLM2-1.7B"
+   ],
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 100,
+   "attn_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "attn_windows": 8,
+   "attn_seq": 512,
+   "gen_models": [
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "gen_n": 150,
+   "gen_w8a16_n": 80,
+   "gen_coded_n": 20,
+   "gen_max": 256,
+   "priv_model": "Qwen/Qwen2.5-1.5B"
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 4.269362688064575
+}

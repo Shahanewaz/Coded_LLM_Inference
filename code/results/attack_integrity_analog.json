@@ -1,0 +1,94 @@
+{
+ "bf16_beta1": {
+  "clean": {
+   "target_hit": 0.0,
+   "ppl": 30.548537080143866,
+   "flagged_frac": 0.0
+  },
+  "steer": {
+   "target_hit": 0.111328125,
+   "ppl": 53.04309718955651,
+   "flagged_frac": 1.0
+  },
+  "stealth": {
+   "target_hit": 0.0,
+   "ppl": 30.5410487792919,
+   "flagged_frac": 0.0
+  },
+  "thr": {
+   "h8.mlp.c_proj": 0.001658496539132603,
+   "h9.mlp.c_proj": 0.0016262300810786388,
+   "h10.mlp.c_proj": 0.0014576755220926598,
+   "h11.mlp.c_proj": 0.001562879493611891
+  }
+ },
+ "bf16_beta10": {
+  "clean": {
+   "target_hit": 0.0,
+   "ppl": 30.787866284362927,
+   "flagged_frac": 0.0
+  },
+  "steer": {
+   "target_hit": 0.10807291666666667,
+   "ppl": 53.25901698128603,
+   "flagged_frac": 1.0
+  },
+  "stealth": {
+   "target_hit": 0.0,
+   "ppl": 30.770618886692244,
+   "flagged_frac": 0.0
+  },
+  "thr": {
+   "h8.mlp.c_proj": 0.0014440309173161957,
+   "h9.mlp.c_proj": 0.0014381349924222154,
+   "h10.mlp.c_proj": 0.0014349810754721193,
+   "h11.mlp.c_proj": 0.0014465877736222939
+  }
+ },
+ "fp32_beta1000": {
+  "clean": {
+   "target_hit": 0.0,
+   "ppl": 30.541645603669757,
+   "flagged_frac": 0.0
+  },
+  "steer": {
+   "target_hit": 0.11263020833333333,
+   "ppl": 53.02439819044021,
+   "flagged_frac": 1.0
+  },
+  "stealth": {
+   "target_hit": 0.0,
+   "ppl": 30.542086076864788,
+   "flagged_frac": 0.0
+  },
+  "thr": {
+   "h8.mlp.c_proj": 2.2631223794675846e-07,
+   "h9.mlp.c_proj": 2.206994921014854e-07,
+   "h10.mlp.c_proj": 2.3835791093855696e-07,
+   "h11.mlp.c_proj": 2.3663538392790155e-07
+  }
+ },
+ "fp32_beta10000": {
+  "clean": {
+   "target_hit": 0.0,
+   "ppl": 30.521691319692618,
+   "flagged_frac": 0.0
+  },
+  "steer": {
+   "target_hit": 0.11263020833333333,
+   "ppl": 52.985364003054315,
+   "flagged_frac": 1.0
+  },
+  "stealth": {
+   "target_hit": 0.0,
+   "ppl": 30.521817345409136,
+   "flagged_frac": 0.0
+  },
+  "thr": {
+   "h8.mlp.c_proj": 2.2501495895270524e-07,
+   "h9.mlp.c_proj": 2.1934123660186936e-07,
+   "h10.mlp.c_proj": 2.3789565401802104e-07,
+   "h11.mlp.c_proj": 2.4102959894625815e-07
+  }
+ }
+}

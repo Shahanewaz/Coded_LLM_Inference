@@ -1,0 +1,83 @@
+{
+ "result": {
+  "Qwen/Qwen2.5-1.5B": {
+   "bf16": {
+    "acc": 0.38,
+    "n": 150,
+    "sec": 463.37343072891235,
+    "gen_tokens": 17733
+   },
+   "w8a8": {
+    "acc": 0.36666666666666664,
+    "n": 150,
+    "sec": 1511.3166027069092,
+    "gen_tokens": 17536
+   },
+   "rns_w8a8": {
+    "acc": 0.15,
+    "n": 20,
+    "sec": 1704.4509258270264,
+    "gen_tokens": 2725,
+    "stats": {
+     "gemms": 534100,
+     "exact": 534100,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "token_identical_to_w8a8": 20
+   },
+   "w8a16": {
+    "acc": 0.3625,
+    "n": 80,
+    "sec": 2476.481769800186,
+    "gen_tokens": 9858
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "stages": [
+    "timing",
+    "stress",
+    "attention",
+    "generate",
+    "privacy",
+    "tasks"
+   ],
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "HuggingFaceTB/SmolLM2-1.7B"
+   ],
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 100,
+   "attn_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "attn_windows": 8,
+   "attn_seq": 512,
+   "gen_models": [
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "gen_n": 150,
+   "gen_w8a16_n": 80,
+   "gen_coded_n": 20,
+   "gen_max": 256,
+   "priv_model": "Qwen/Qwen2.5-1.5B"
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 6159.809957265854
+}

@@ -1,0 +1,93 @@
+{
+ "result": {
+  "Qwen/Qwen2.5-0.5B": {
+   "windows": 8,
+   "seq": 512,
+   "bf16": {
+    "ppl": 16.987533083771847,
+    "sec": 0.34293389320373535
+   },
+   "w8a8_linear": {
+    "ppl": 17.40653090192915,
+    "sec": 0.5892179012298584
+   },
+   "w8a8_linear+int8_attn": {
+    "ppl": 18.45382685324156,
+    "sec": 3.0637705326080322
+   },
+   "fully_coded": {
+    "ppl": 18.45382685324156,
+    "sec": 32.67582035064697,
+    "linear_exact": "1344/1344",
+    "attention_products_exact": "5376/5376"
+   }
+  },
+  "Qwen/Qwen2.5-1.5B": {
+   "windows": 8,
+   "seq": 512,
+   "bf16": {
+    "ppl": 12.156615825275253,
+    "sec": 0.3822441101074219
+   },
+   "w8a8_linear": {
+    "ppl": 12.609211150506441,
+    "sec": 0.9401729106903076
+   },
+   "w8a8_linear+int8_attn": {
+    "ppl": 12.444877878574024,
+    "sec": 3.2727081775665283
+   },
+   "fully_coded": {
+    "ppl": 12.444877878574024,
+    "sec": 35.75759768486023,
+    "linear_exact": "1568/1568",
+    "attention_products_exact": "5376/5376"
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "stages": [
+    "timing",
+    "stress",
+    "attention",
+    "generate",
+    "privacy",
+    "tasks"
+   ],
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "HuggingFaceTB/SmolLM2-1.7B"
+   ],
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 100,
+   "attn_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "attn_windows": 8,
+   "attn_seq": 512,
+   "gen_models": [
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "gen_n": 150,
+   "gen_w8a16_n": 80,
+   "gen_coded_n": 20,
+   "gen_max": 256,
+   "priv_model": "Qwen/Qwen2.5-1.5B"
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 87.82123041152954
+}

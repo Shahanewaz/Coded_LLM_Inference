@@ -1,0 +1,214 @@
+{
+ "result": {
+  "allenai/OLMo-2-1124-7B": {
+   "bf16": {
+    "arc_easy": {
+     "acc": 0.8733333333333333,
+     "acc_norm": 0.8533333333333334,
+     "n": 300
+    },
+    "arc_challenge": {
+     "acc": 0.5333333333333333,
+     "acc_norm": 0.58,
+     "n": 300
+    },
+    "hellaswag": {
+     "acc": 0.6233333333333333,
+     "acc_norm": 0.7966666666666666,
+     "n": 300
+    },
+    "boolq": {
+     "acc": 0.81,
+     "acc_norm": 0.76,
+     "n": 300
+    },
+    "winogrande": {
+     "acc": 0.76,
+     "acc_norm": 0.76,
+     "n": 300
+    },
+    "piqa": {
+     "acc": 0.8233333333333334,
+     "acc_norm": 0.8,
+     "n": 300
+    },
+    "mmlu": {
+     "acc": 0.58,
+     "acc_norm": 0.58,
+     "n": 300
+    }
+   },
+   "w8a8": {
+    "arc_easy": {
+     "acc": 0.8633333333333333,
+     "acc_norm": 0.8566666666666667,
+     "n": 300
+    },
+    "arc_challenge": {
+     "acc": 0.55,
+     "acc_norm": 0.5866666666666667,
+     "n": 300
+    },
+    "hellaswag": {
+     "acc": 0.6233333333333333,
+     "acc_norm": 0.8066666666666666,
+     "n": 300
+    },
+    "boolq": {
+     "acc": 0.8033333333333333,
+     "acc_norm": 0.7633333333333333,
+     "n": 300
+    },
+    "winogrande": {
+     "acc": 0.7533333333333333,
+     "acc_norm": 0.7533333333333333,
+     "n": 300
+    },
+    "piqa": {
+     "acc": 0.8233333333333334,
+     "acc_norm": 0.8133333333333334,
+     "n": 300
+    },
+    "mmlu": {
+     "acc": 0.5766666666666667,
+     "acc_norm": 0.5766666666666667,
+     "n": 300
+    }
+   },
+   "w8a16": {
+    "arc_easy": {
+     "acc": 0.86,
+     "acc_norm": 0.85,
+     "n": 100
+    },
+    "arc_challenge": {
+     "acc": 0.6,
+     "acc_norm": 0.62,
+     "n": 100
+    },
+    "hellaswag": {
+     "acc": 0.58,
+     "acc_norm": 0.78,
+     "n": 100
+    },
+    "boolq": {
+     "acc": 0.76,
+     "acc_norm": 0.71,
+     "n": 100
+    },
+    "winogrande": {
+     "acc": 0.77,
+     "acc_norm": 0.77,
+     "n": 100
+    },
+    "piqa": {
+     "acc": 0.85,
+     "acc_norm": 0.86,
+     "n": 100
+    },
+    "mmlu": {
+     "acc": 0.6,
+     "acc_norm": 0.6,
+     "n": 100
+    }
+   },
+   "rns_w8a8_subset": {
+    "arc_easy": {
+     "acc": 0.8,
+     "acc_norm": 0.8333333333333334,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "arc_challenge": {
+     "acc": 0.6,
+     "acc_norm": 0.6666666666666666,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "hellaswag": {
+     "acc": 0.5,
+     "acc_norm": 0.6666666666666666,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "boolq": {
+     "acc": 0.7,
+     "acc_norm": 0.7333333333333333,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "winogrande": {
+     "acc": 0.8333333333333334,
+     "acc_norm": 0.8333333333333334,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "piqa": {
+     "acc": 0.7666666666666667,
+     "acc_norm": 0.8,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    },
+    "mmlu": {
+     "acc": 0.5,
+     "acc_norm": 0.5,
+     "n": 30,
+     "logprobs_identical_to_w8a8": true
+    }
+   },
+   "rns_stats": {
+    "gemms": 147840,
+    "exact": 147840,
+    "flagged": 0,
+    "corrected": 0,
+    "aborted": 0
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "o7",
+   "stages": [
+    "quality",
+    "tasks"
+   ],
+   "models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": true,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 300,
+   "w8a16_task_n": 100,
+   "coded_task_n": 30,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "allenai/OLMo-2-1124-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "attn_models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "gen_models": [
+    "allenai/OLMo-2-1124-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 2758.615285873413
+}

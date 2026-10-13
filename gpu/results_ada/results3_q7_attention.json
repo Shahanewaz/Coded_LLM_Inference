@@ -1,0 +1,72 @@
+{
+ "result": {
+  "Qwen/Qwen2.5-7B": {
+   "windows": 4,
+   "seq": 512,
+   "bf16": {
+    "ppl": 11.75247140830032,
+    "sec": 0.6034367084503174
+   },
+   "w8a8_linear": {
+    "ppl": 11.796684613929786,
+    "sec": 0.6430809497833252
+   },
+   "w8a8_linear+int8_attn": {
+    "ppl": 10.794651451809168,
+    "sec": 3.3534586429595947
+   },
+   "fully_coded": {
+    "ppl": 10.794651451809168,
+    "sec": 45.35926127433777,
+    "linear_exact": "784/784",
+    "attention_products_exact": "6272/6272"
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "q7",
+   "stages": [
+    "quality",
+    "attention"
+   ],
+   "models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": true,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 50,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "Qwen/Qwen2.5-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "attn_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "gen_models": [
+    "Qwen/Qwen2.5-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 65.38631796836853
+}

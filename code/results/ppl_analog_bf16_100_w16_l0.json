@@ -1,0 +1,1 @@
+{"cfg": "analog:bf16,100", "ppl": 115.08706237402988, "tokens": 8176, "nonfinite_windows": 0, "overflow": false, "sec": 256.2412929534912}

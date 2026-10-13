@@ -1,0 +1,1 @@
+{"cfg": "bf16", "ppl": 29.42028694587467, "tokens": 32704, "nonfinite_windows": 0, "lambada_acc": 0.32, "lambada_n": 500, "sec": 3981.002491235733}

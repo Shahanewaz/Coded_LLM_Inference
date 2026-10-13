@@ -1,0 +1,208 @@
+{
+ "result": {
+  "allenai/OLMo-2-1124-7B": {
+   "windows": 20,
+   "seq": 1024,
+   "lambada_n": 500,
+   "drop_bf16": false,
+   "bf16": {
+    "ppl": 7.106333092899886,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "lambada_acc": 0.736,
+    "sec": 30.02771759033203
+   },
+   "bf16_on_analog_subset": {
+    "ppl": 6.036113261722062,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 2.33355450630188
+   },
+   "analog_bf16_beta1": {
+    "ppl": 6.039627769049143,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 13.013458490371704,
+    "leak_per_entry_worst_pair_nats": 2.490159903028761
+   },
+   "analog_bf16_beta10": {
+    "ppl": 6.518594283634012,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 12.469136714935303,
+    "leak_per_entry_worst_pair_nats": 0.3672251165776465
+   },
+   "analog_bf16_beta100": {
+    "ppl": 12.203975353002802,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 12.566497325897217,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta100": {
+    "ppl": 6.91672668159892,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 13.046694040298462,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta1000": {
+    "ppl": 259.17922676994226,
+    "tokens": 10230,
+    "nonfinite_windows": 4,
+    "overflow": true,
+    "sec": 13.199262142181396,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta1000": {
+    "ppl": 6.034406387016094,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 22.028273820877075,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta10000": {
+    "ppl": 6.151170725836963,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 22.069907188415527,
+    "leak_per_entry_worst_pair_nats": 5.403450066230443e-07
+   },
+   "w8a8_on_analog_subset": {
+    "ppl": 6.151602255741499,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 3.502814769744873
+   },
+   "w8a8": {
+    "ppl": 7.2184027646548925,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "lambada_acc": 0.732,
+    "sec": 69.1752381324768
+   },
+   "w8a16": {
+    "ppl": 7.110513314596401,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 26.62299418449402
+   },
+   "rns_w8a8": {
+    "ppl": 7.2184027646548925,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 4480,
+     "exact": 4480,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 86.47746586799622
+   },
+   "rns_w8a16": {
+    "ppl": 5.645278432801983,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 1120,
+     "exact": 1120,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 31.439241886138916
+   },
+   "byzantine_rs": {
+    "ppl": 5.793842517660749,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 1120,
+     "exact": 1120,
+     "flagged": 1120,
+     "corrected": 1120,
+     "aborted": 0
+    },
+    "sec": 33.07790398597717
+   },
+   "byzantine_naive": {
+    "ppl": 940820.4160885588,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 1120,
+     "exact": 0,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 17.899421215057373
+   },
+   "w8a8_on_quarter": {
+    "ppl": 5.793842517660749,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "sec": 1.7333965301513672
+   },
+   "w8a16_on_quarter": {
+    "ppl": 5.645278432801983,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "sec": 6.609389543533325
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "o7",
+   "stages": [
+    "quality",
+    "tasks"
+   ],
+   "models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": true,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 300,
+   "w8a16_task_n": 100,
+   "coded_task_n": 30,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "allenai/OLMo-2-1124-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "attn_models": [
+    "allenai/OLMo-2-1124-7B"
+   ],
+   "gen_models": [
+    "allenai/OLMo-2-1124-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 696.267110824585
+}

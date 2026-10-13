@@ -1,0 +1,242 @@
+[
+ {
+  "data": "gaussian",
+  "beta": 0,
+  "fmt": "bf16",
+  "kappa": 0.17994856916424778,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 0,
+  "fmt": "fp16",
+  "kappa": 0.18235446490813076,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0003255208333333333
+ },
+ {
+  "data": "gaussian",
+  "beta": 0,
+  "fmt": "fp32",
+  "kappa": 0.1795873594335884,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 1,
+  "fmt": "bf16",
+  "kappa": 0.18078099252133684,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 1,
+  "fmt": "fp16",
+  "kappa": 0.1783268541901757,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0002288818359375
+ },
+ {
+  "data": "gaussian",
+  "beta": 1,
+  "fmt": "fp32",
+  "kappa": 0.1832423357534127,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 10,
+  "fmt": "bf16",
+  "kappa": 0.18223207194455165,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 10,
+  "fmt": "fp16",
+  "kappa": 0.17843347133543028,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 2.5431315104166668e-05
+ },
+ {
+  "data": "gaussian",
+  "beta": 10,
+  "fmt": "fp32",
+  "kappa": 0.17881865230891003,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 100,
+  "fmt": "bf16",
+  "kappa": 0.17925940210227362,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 100,
+  "fmt": "fp16",
+  "kappa": 0.1780018826871456,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 100,
+  "fmt": "fp32",
+  "kappa": 0.1799269445568354,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 1000,
+  "fmt": "bf16",
+  "kappa": 0.17964436638201176,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 1000,
+  "fmt": "fp16",
+  "kappa": 0.17914031846314324,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gaussian",
+  "beta": 1000,
+  "fmt": "fp32",
+  "kappa": 0.17821584704619498,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 0,
+  "fmt": "bf16",
+  "kappa": 0.17946482176364464,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 0,
+  "fmt": "fp16",
+  "kappa": 0.181542813233387,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0002593994140625
+ },
+ {
+  "data": "gpt2",
+  "beta": 0,
+  "fmt": "fp32",
+  "kappa": 0.0,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 1,
+  "fmt": "bf16",
+  "kappa": 0.1774666458692898,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 1,
+  "fmt": "fp16",
+  "kappa": 0.1815467858893917,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.00014750162760416666
+ },
+ {
+  "data": "gpt2",
+  "beta": 1,
+  "fmt": "fp32",
+  "kappa": 0.18622456580744468,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 10,
+  "fmt": "bf16",
+  "kappa": 0.17749942517714123,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 10,
+  "fmt": "fp16",
+  "kappa": 0.18062384408420948,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 1.0172526041666666e-05
+ },
+ {
+  "data": "gpt2",
+  "beta": 10,
+  "fmt": "fp32",
+  "kappa": 0.1859966293188147,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 100,
+  "fmt": "bf16",
+  "kappa": 0.1786491946779446,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 100,
+  "fmt": "fp16",
+  "kappa": 0.18079037638306691,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 100,
+  "fmt": "fp32",
+  "kappa": 0.1814553664129751,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 1000,
+  "fmt": "bf16",
+  "kappa": 0.18180342674731007,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 1000,
+  "fmt": "fp16",
+  "kappa": 0.18190256101356717,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ },
+ {
+  "data": "gpt2",
+  "beta": 1000,
+  "fmt": "fp32",
+  "kappa": 0.18077720328841995,
+  "overflow_frac": 0.0,
+  "subnormal_frac": 0.0
+ }
+]

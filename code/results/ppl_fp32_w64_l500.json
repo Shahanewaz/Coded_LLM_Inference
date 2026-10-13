@@ -1,0 +1,1 @@
+{"cfg": "fp32", "ppl": 29.42234099864525, "tokens": 32704, "nonfinite_windows": 0, "lambada_acc": 0.32, "lambada_n": 500, "sec": 2209.8165516853333}

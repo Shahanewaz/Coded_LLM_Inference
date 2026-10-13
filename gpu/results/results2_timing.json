@@ -1,0 +1,157 @@
+{
+ "result": {
+  "Llama-3-8B gate/up m=1024": {
+   "local_bf16_ms": 1.8410599999697297,
+   "local_w8a8_ms": 0.9922799999912968,
+   "one_worker_ms": 0.6902900000568479,
+   "worker_vs_local_bf16": 0.37494160976187496,
+   "coded_total_serial_ms": 38.387633333513804,
+   "coordinator_overhead_ms_est": 32.86531333305902,
+   "coordinator_overhead_vs_local_bf16": 17.851299432717774
+  },
+  "Llama-3-8B down m=1024": {
+   "local_bf16_ms": 1.972600000044622,
+   "local_w8a8_ms": 1.604459999998653,
+   "one_worker_ms": 0.5568200000197976,
+   "worker_vs_local_bf16": 0.28227719761086983,
+   "coded_total_serial_ms": 26.24629999991157,
+   "coordinator_overhead_ms_est": 21.79173999975319,
+   "coordinator_overhead_vs_local_bf16": 11.047216870759526
+  },
+  "Qwen2.5-7B up m=1024": {
+   "local_bf16_ms": 2.1049699999821314,
+   "local_w8a8_ms": 1.130009999997128,
+   "one_worker_ms": 0.8439700000053563,
+   "worker_vs_local_bf16": 0.4009415811211184,
+   "coded_total_serial_ms": 47.991299999921466,
+   "coordinator_overhead_ms_est": 41.239539999878616,
+   "coordinator_overhead_vs_local_bf16": 19.591509617822908
+  },
+  "Llama-3-8B gate/up m=2048": {
+   "local_bf16_ms": 3.7124100000255567,
+   "local_w8a8_ms": 2.0426200000656536,
+   "one_worker_ms": 1.4074400000026799,
+   "worker_vs_local_bf16": 0.37911760823642615,
+   "coded_total_serial_ms": 79.02446666654821,
+   "coordinator_overhead_ms_est": 67.76494666652677,
+   "coordinator_overhead_vs_local_bf16": 18.25362679931911
+  },
+  "Llama-3-8B down m=2048": {
+   "local_bf16_ms": 3.621079999993526,
+   "local_w8a8_ms": 3.2050799999524315,
+   "one_worker_ms": 1.0342599999603408,
+   "worker_vs_local_bf16": 0.2856219691258381,
+   "coded_total_serial_ms": 56.60566666665545,
+   "coordinator_overhead_ms_est": 48.331586666972726,
+   "coordinator_overhead_vs_local_bf16": 13.347284972179331
+  },
+  "Qwen2.5-7B up m=2048": {
+   "local_bf16_ms": 4.21701999994184,
+   "local_w8a8_ms": 2.3155700000643265,
+   "one_worker_ms": 1.697619999958988,
+   "worker_vs_local_bf16": 0.4025638958274803,
+   "coded_total_serial_ms": 98.738766666429,
+   "coordinator_overhead_ms_est": 85.1578066667571,
+   "coordinator_overhead_vs_local_bf16": 20.193835141386945
+  },
+  "Llama-3-8B gate/up m=4096": {
+   "local_bf16_ms": 7.011070000044128,
+   "local_w8a8_ms": 4.421759999968344,
+   "one_worker_ms": 2.80388999999559,
+   "worker_vs_local_bf16": 0.3999232642061686,
+   "coded_total_serial_ms": 157.17193333330215,
+   "coordinator_overhead_ms_est": 134.74081333333743,
+   "coordinator_overhead_vs_local_bf16": 19.218295257712356
+  },
+  "Llama-3-8B down m=4096": {
+   "local_bf16_ms": 7.079630000043835,
+   "local_w8a8_ms": 6.404939999993076,
+   "one_worker_ms": 2.124089999961143,
+   "worker_vs_local_bf16": 0.3000283913068891,
+   "coded_total_serial_ms": 112.16909999984637,
+   "coordinator_overhead_ms_est": 95.17638000015722,
+   "coordinator_overhead_vs_local_bf16": 13.44369409129685
+  },
+  "Qwen2.5-7B up m=4096": {
+   "local_bf16_ms": 8.15786000002845,
+   "local_w8a8_ms": 5.026460000044608,
+   "one_worker_ms": 3.3836300000075425,
+   "worker_vs_local_bf16": 0.41476931450107535,
+   "coded_total_serial_ms": 522.5061666666685,
+   "coordinator_overhead_ms_est": 495.43712666660815,
+   "coordinator_overhead_vs_local_bf16": 60.731261221065374
+  },
+  "Llama-3-8B gate/up m=8192": {
+   "local_bf16_ms": 14.178810000066733,
+   "local_w8a8_ms": 8.901260000038747,
+   "one_worker_ms": 22.86525999998048,
+   "worker_vs_local_bf16": 1.6126360392637227,
+   "coded_total_serial_ms": 2634.488200000002,
+   "coordinator_overhead_ms_est": 2451.566120000158,
+   "coordinator_overhead_vs_local_bf16": 172.9035172901407
+  },
+  "Llama-3-8B down m=8192": {
+   "local_bf16_ms": 13.946489999943879,
+   "local_w8a8_ms": 15.223019999939424,
+   "one_worker_ms": 4.197389999990264,
+   "worker_vs_local_bf16": 0.30096389844377724,
+   "coded_total_serial_ms": 227.628966666695,
+   "coordinator_overhead_ms_est": 194.04984666677288,
+   "coordinator_overhead_vs_local_bf16": 13.913884186455068
+  },
+  "Qwen2.5-7B up m=8192": {
+   "local_bf16_ms": 16.143929999998363,
+   "local_w8a8_ms": 10.383470000033412,
+   "one_worker_ms": 6.809479999992618,
+   "worker_vs_local_bf16": 0.42179816190935593,
+   "coded_total_serial_ms": 2545.734500000132,
+   "coordinator_overhead_ms_est": 2491.258660000191,
+   "coordinator_overhead_vs_local_bf16": 154.3155018635762
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "stages": [
+    "timing",
+    "stress",
+    "attention",
+    "generate",
+    "privacy",
+    "tasks"
+   ],
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "HuggingFaceTB/SmolLM2-1.7B"
+   ],
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 100,
+   "attn_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "attn_windows": 8,
+   "attn_seq": 512,
+   "gen_models": [
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "gen_n": 150,
+   "gen_w8a16_n": 80,
+   "gen_coded_n": 20,
+   "gen_max": 256,
+   "priv_model": "Qwen/Qwen2.5-1.5B"
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 43.00328874588013
+}

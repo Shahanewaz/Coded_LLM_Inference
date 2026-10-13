@@ -1,0 +1,208 @@
+{
+ "result": {
+  "Qwen/Qwen2.5-7B": {
+   "windows": 20,
+   "seq": 1024,
+   "lambada_n": 500,
+   "drop_bf16": false,
+   "bf16": {
+    "ppl": 8.206975718662218,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "lambada_acc": 0.702,
+    "sec": 26.893839836120605
+   },
+   "bf16_on_analog_subset": {
+    "ppl": 7.728491549440022,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 2.0529775619506836
+   },
+   "analog_bf16_beta1": {
+    "ppl": 7.60608646714015,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 13.045458793640137,
+    "leak_per_entry_worst_pair_nats": 2.490159903028761
+   },
+   "analog_bf16_beta10": {
+    "ppl": 7.583076000577445,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 12.498396635055542,
+    "leak_per_entry_worst_pair_nats": 0.3672251165776465
+   },
+   "analog_bf16_beta100": {
+    "ppl": 12.444816452885526,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 12.454820156097412,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta100": {
+    "ppl": 7.61027407212715,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 13.221073627471924,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta1000": {
+    "ppl": 10686474581524.463,
+    "tokens": 10230,
+    "nonfinite_windows": 40,
+    "overflow": true,
+    "sec": 12.874921798706055,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta1000": {
+    "ppl": 7.716343999299207,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 21.304707050323486,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta10000": {
+    "ppl": 7.7134938787454566,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "overflow": false,
+    "sec": 21.583656549453735,
+    "leak_per_entry_worst_pair_nats": 5.403450066230443e-07
+   },
+   "w8a8_on_analog_subset": {
+    "ppl": 7.771379006479852,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 3.8368093967437744
+   },
+   "w8a8": {
+    "ppl": 8.336880251926548,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "lambada_acc": 0.662,
+    "sec": 62.66745376586914
+   },
+   "w8a16": {
+    "ppl": 8.17888955778862,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 29.298836708068848
+   },
+   "rns_w8a8": {
+    "ppl": 8.336880251926548,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 3920,
+     "exact": 3920,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 96.31026887893677
+   },
+   "rns_w8a16": {
+    "ppl": 7.651048593408513,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 980,
+     "exact": 980,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 34.44079232215881
+   },
+   "byzantine_rs": {
+    "ppl": 7.734072695052348,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 980,
+     "exact": 980,
+     "flagged": 980,
+     "corrected": 980,
+     "aborted": 0
+    },
+    "sec": 36.62470054626465
+   },
+   "byzantine_naive": {
+    "ppl": 28800512.0948791,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "stats": {
+     "gemms": 980,
+     "exact": 0,
+     "flagged": 0,
+     "corrected": 0,
+     "aborted": 0
+    },
+    "sec": 19.750083923339844
+   },
+   "w8a8_on_quarter": {
+    "ppl": 7.734072695052348,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "sec": 1.9148452281951904
+   },
+   "w8a16_on_quarter": {
+    "ppl": 7.651048593408513,
+    "tokens": 5115,
+    "nonfinite_windows": 0,
+    "sec": 7.40655255317688
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "q7",
+   "stages": [
+    "quality",
+    "attention"
+   ],
+   "models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": true,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 50,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "Qwen/Qwen2.5-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "attn_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "gen_models": [
+    "Qwen/Qwen2.5-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 575.0954785346985
+}

@@ -1,0 +1,125 @@
+{
+ "result": {
+  "model": "Qwen/Qwen2.5-7B",
+  "bf16": {
+   "ppl": 7.728491549440022,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 1.9955205917358398
+  },
+  "fp32_linear": {
+   "ppl": 7.715660342961817,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 5.979442596435547
+  },
+  "analog_bf16_beta1_seed3": {
+   "ppl": 7.60608646714015,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 13.126239776611328
+  },
+  "analog_bf16_beta1_seed4": {
+   "ppl": 7.680721101548347,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 12.646512508392334
+  },
+  "analog_bf16_beta1_seed5": {
+   "ppl": 7.661688314280052,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 12.673834562301636
+  },
+  "analog_bf16_beta10_seed3": {
+   "ppl": 7.583076000577445,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 12.623449087142944
+  },
+  "analog_bf16_beta10_seed4": {
+   "ppl": 7.522001385540806,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 12.62198805809021
+  },
+  "analog_bf16_beta10_seed5": {
+   "ppl": 7.600453182297567,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 12.6075119972229
+  },
+  "fp32_plus_noise_rel1e-05_seed0": {
+   "ppl": 7.700220100578255,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.933464765548706
+  },
+  "fp32_plus_noise_rel1e-05_seed1": {
+   "ppl": 7.738073814061864,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.957703351974487
+  },
+  "fp32_plus_noise_rel0.0001_seed0": {
+   "ppl": 8.155195947267373,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.979156970977783
+  },
+  "fp32_plus_noise_rel0.0001_seed1": {
+   "ppl": 8.184621896294265,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.950523614883423
+  },
+  "fp32_plus_noise_rel0.001_seed0": {
+   "ppl": 44.568308274616875,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.951054573059082
+  },
+  "fp32_plus_noise_rel0.001_seed1": {
+   "ppl": 49.6597175206624,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.960890054702759
+  },
+  "fp32_plus_noise_rel0.01_seed0": {
+   "ppl": 12366.705133805308,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.993573904037476
+  },
+  "fp32_plus_noise_rel0.01_seed1": {
+   "ppl": 13275.908794795188,
+   "tokens": 10230,
+   "nonfinite_windows": 0,
+   "sec": 6.982286214828491
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "tf32": false,
+  "args": {
+   "stages": [
+    "gsm8k",
+    "int8",
+    "noise",
+    "relerr"
+   ],
+   "gsm_model": "Qwen/Qwen2.5-7B",
+   "gsm_n": 40,
+   "gsm_max": 400,
+   "relerr_models": [
+    "Qwen/Qwen2.5-7B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "noise_model": "Qwen/Qwen2.5-7B",
+   "quick": false,
+   "force": false
+  }
+ },
+ "seconds": 164.81087684631348
+}

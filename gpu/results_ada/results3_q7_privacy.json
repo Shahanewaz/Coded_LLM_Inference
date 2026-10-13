@@ -1,0 +1,222 @@
+{
+ "result": {
+  "model": "Qwen/Qwen2.5-7B",
+  "layers": [
+   0,
+   7,
+   14,
+   27
+  ],
+  "coalition": [
+   2,
+   4
+  ],
+  "N": 8,
+  "k": 4,
+  "T": 2,
+  "prior_most_frequent_token_acc": 0.04830729216337204,
+  "prior_digit_acc": 0.1,
+  "train_prompts": 400,
+  "test_prompts": 60,
+  "canaries": 200,
+  "by_layer": {
+   "0": {
+    "uncoded": {
+     "token_acc": 0.9972005486488342,
+     "canary_digit_acc": 1.0,
+     "canary_full_pin": 1.0,
+     "final_loss": 1.7706974176689982e-05
+    },
+    "analog_beta0": {
+     "token_acc": 0.7906901240348816,
+     "canary_digit_acc": 0.8125,
+     "canary_full_pin": 0.28,
+     "final_loss": 0.00011683010961860418
+    },
+    "analog_beta1": {
+     "token_acc": 0.7733724117279053,
+     "canary_digit_acc": 0.8091666666666667,
+     "canary_full_pin": 0.26,
+     "final_loss": 9.299298108089715e-05
+    },
+    "analog_beta10": {
+     "token_acc": 0.2803385555744171,
+     "canary_digit_acc": 0.1425,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00022098129556979984
+    },
+    "analog_beta100": {
+     "token_acc": 0.02031250111758709,
+     "canary_digit_acc": 0.011666666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0014908596640452743
+    },
+    "rns": {
+     "token_acc": 0.02278645895421505,
+     "canary_digit_acc": 0.010833333333333334,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006200820207595825
+    }
+   },
+   "7": {
+    "uncoded": {
+     "token_acc": 0.9293619990348816,
+     "canary_digit_acc": 0.975,
+     "canary_full_pin": 0.85,
+     "final_loss": 0.013941612094640732
+    },
+    "analog_beta0": {
+     "token_acc": 0.4899088740348816,
+     "canary_digit_acc": 0.23916666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00015810922195669264
+    },
+    "analog_beta1": {
+     "token_acc": 0.45976564288139343,
+     "canary_digit_acc": 0.16416666666666666,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00015762234397698194
+    },
+    "analog_beta10": {
+     "token_acc": 0.10084635764360428,
+     "canary_digit_acc": 0.03166666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0004494722525123507
+    },
+    "analog_beta100": {
+     "token_acc": 0.02109375037252903,
+     "canary_digit_acc": 0.0175,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0015924021136015654
+    },
+    "rns": {
+     "token_acc": 0.02285156399011612,
+     "canary_digit_acc": 0.014166666666666666,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006867357878945768
+    }
+   },
+   "14": {
+    "uncoded": {
+     "token_acc": 0.9169922471046448,
+     "canary_digit_acc": 0.9691666666666666,
+     "canary_full_pin": 0.825,
+     "final_loss": 0.011034777387976646
+    },
+    "analog_beta0": {
+     "token_acc": 0.3880208432674408,
+     "canary_digit_acc": 0.1075,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00023225927725434303
+    },
+    "analog_beta1": {
+     "token_acc": 0.35794273018836975,
+     "canary_digit_acc": 0.11416666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0002104658487951383
+    },
+    "analog_beta10": {
+     "token_acc": 0.06165364757180214,
+     "canary_digit_acc": 0.014166666666666666,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006698862416669726
+    },
+    "analog_beta100": {
+     "token_acc": 0.02024739608168602,
+     "canary_digit_acc": 0.008333333333333333,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0018092611571773887
+    },
+    "rns": {
+     "token_acc": 0.02128906361758709,
+     "canary_digit_acc": 0.013333333333333334,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006144035723991692
+    }
+   },
+   "27": {
+    "uncoded": {
+     "token_acc": 0.8794271349906921,
+     "canary_digit_acc": 0.93,
+     "canary_full_pin": 0.63,
+     "final_loss": 0.00023301696637645364
+    },
+    "analog_beta0": {
+     "token_acc": 0.3604166805744171,
+     "canary_digit_acc": 0.09583333333333334,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00022701724083162844
+    },
+    "analog_beta1": {
+     "token_acc": 0.3330729305744171,
+     "canary_digit_acc": 0.0775,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0002176401758333668
+    },
+    "analog_beta10": {
+     "token_acc": 0.07278646528720856,
+     "canary_digit_acc": 0.03,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006932065589353442
+    },
+    "analog_beta100": {
+     "token_acc": 0.01959635503590107,
+     "canary_digit_acc": 0.011666666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0017682008910924196
+    },
+    "rns": {
+     "token_acc": 0.0211588554084301,
+     "canary_digit_acc": 0.0125,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0007051723659969866
+    }
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "q7",
+   "stages": [
+    "privacy"
+   ],
+   "models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": false,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 50,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "Qwen/Qwen2.5-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "attn_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "gen_models": [
+    "Qwen/Qwen2.5-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 7547.171381950378
+}

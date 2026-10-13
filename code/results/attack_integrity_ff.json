@@ -1,0 +1,40 @@
+{
+ "target": " Paris",
+ "evil_worker": 3,
+ "ops": [
+  "h8.mlp.c_proj",
+  "h9.mlp.c_proj",
+  "h10.mlp.c_proj",
+  "h11.mlp.c_proj"
+ ],
+ "N": 8,
+ "k": 4,
+ "T": 2,
+ "m": 256,
+ "honest_row_norm": {
+  "h8.mlp.c_proj": 28.596787821180705,
+  "h9.mlp.c_proj": 35.06704257556422,
+  "h10.mlp.c_proj": 66.11526987080137,
+  "h11.mlp.c_proj": 72.0121712666139
+ },
+ "ff": {
+  "clean": {
+   "nll": 3.4310828975082743,
+   "ppl": 30.91009709972146,
+   "target_hit_block0": 0.0,
+   "detected_frac": 0.0
+  },
+  "naive": {
+   "nll": 25.1172521251856,
+   "ppl": 80962516494.50432,
+   "target_hit_block0": 0.8932291666666666,
+   "detected_frac": 0.0
+  },
+  "rs": {
+   "nll": 3.4310828975082743,
+   "ppl": 30.91009709972146,
+   "target_hit_block0": 0.0,
+   "detected_frac": 1.0
+  }
+ }
+}

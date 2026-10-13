@@ -1,0 +1,157 @@
+{
+ "result": {
+  "Llama-3-8B gate/up m=1024": {
+   "local_bf16_ms": 0.6305199989583343,
+   "local_w8a8_ms": 0.809550000121817,
+   "one_worker_ms": 0.5361999996239319,
+   "worker_vs_local_bf16": 0.8504091868771395,
+   "coded_total_serial_ms": 38.918800002041586,
+   "coordinator_overhead_ms_est": 34.62920000505013,
+   "coordinator_overhead_vs_local_bf16": 54.921652068546805
+  },
+  "Llama-3-8B down m=1024": {
+   "local_bf16_ms": 0.6321099994238466,
+   "local_w8a8_ms": 1.5558099985355511,
+   "one_worker_ms": 0.4453300003660843,
+   "worker_vs_local_bf16": 0.7045134561579347,
+   "coded_total_serial_ms": 26.212666668773938,
+   "coordinator_overhead_ms_est": 22.650026665845264,
+   "coordinator_overhead_vs_local_bf16": 35.83241316620561
+  },
+  "Qwen2.5-7B up m=1024": {
+   "local_bf16_ms": 0.6851299986010417,
+   "local_w8a8_ms": 0.9618199983378872,
+   "one_worker_ms": 0.6615099991904572,
+   "worker_vs_local_bf16": 0.9655247917054954,
+   "coded_total_serial_ms": 49.92113333234253,
+   "coordinator_overhead_ms_est": 44.62905333881887,
+   "coordinator_overhead_vs_local_bf16": 65.13954056886485
+  },
+  "Llama-3-8B gate/up m=2048": {
+   "local_bf16_ms": 1.1483500013127923,
+   "local_w8a8_ms": 1.6331099992385134,
+   "one_worker_ms": 1.0772300011012703,
+   "worker_vs_local_bf16": 0.9380676621846844,
+   "coded_total_serial_ms": 80.57619999938954,
+   "coordinator_overhead_ms_est": 71.95835999057938,
+   "coordinator_overhead_vs_local_bf16": 62.6623937896257
+  },
+  "Llama-3-8B down m=2048": {
+   "local_bf16_ms": 1.2054200022248551,
+   "local_w8a8_ms": 3.27668999962043,
+   "one_worker_ms": 0.7130300014978275,
+   "worker_vs_local_bf16": 0.5915199682946867,
+   "coded_total_serial_ms": 55.84313332413634,
+   "coordinator_overhead_ms_est": 50.13889331215372,
+   "coordinator_overhead_vs_local_bf16": 41.5945423334704
+  },
+  "Qwen2.5-7B up m=2048": {
+   "local_bf16_ms": 1.3417200010735542,
+   "local_w8a8_ms": 1.9749200000660494,
+   "one_worker_ms": 1.3634499977342784,
+   "worker_vs_local_bf16": 1.0161956269887438,
+   "coded_total_serial_ms": 101.87426666379906,
+   "coordinator_overhead_ms_est": 90.96666668192483,
+   "coordinator_overhead_vs_local_bf16": 67.79854709562309
+  },
+  "Llama-3-8B gate/up m=4096": {
+   "local_bf16_ms": 2.301350000197999,
+   "local_w8a8_ms": 4.02141000085976,
+   "one_worker_ms": 2.187000002595596,
+   "worker_vs_local_bf16": 0.9503117745703327,
+   "coded_total_serial_ms": 162.73646666862382,
+   "coordinator_overhead_ms_est": 145.24046664785905,
+   "coordinator_overhead_vs_local_bf16": 63.11098556732489
+  },
+  "Llama-3-8B down m=4096": {
+   "local_bf16_ms": 2.6706800010288134,
+   "local_w8a8_ms": 6.750580001971684,
+   "one_worker_ms": 1.5258300001733005,
+   "worker_vs_local_bf16": 0.5713264036071384,
+   "coded_total_serial_ms": 114.1171000005367,
+   "coordinator_overhead_ms_est": 101.91045999915029,
+   "coordinator_overhead_vs_local_bf16": 38.15899320019314
+  },
+  "Qwen2.5-7B up m=4096": {
+   "local_bf16_ms": 2.678460002061911,
+   "local_w8a8_ms": 4.491759999655187,
+   "one_worker_ms": 2.754030001233332,
+   "worker_vs_local_bf16": 1.0282139733702376,
+   "coded_total_serial_ms": 204.3314999997771,
+   "coordinator_overhead_ms_est": 182.29925998991044,
+   "coordinator_overhead_vs_local_bf16": 68.06122169066339
+  },
+  "Llama-3-8B gate/up m=8192": {
+   "local_bf16_ms": 5.205659999046475,
+   "local_w8a8_ms": 8.231959998374805,
+   "one_worker_ms": 4.494760002125986,
+   "worker_vs_local_bf16": 0.8634371055638085,
+   "coded_total_serial_ms": 322.87173333073343,
+   "coordinator_overhead_ms_est": 286.91365331372555,
+   "coordinator_overhead_vs_local_bf16": 55.11571123859026
+  },
+  "Llama-3-8B down m=8192": {
+   "local_bf16_ms": 6.0509400005685166,
+   "local_w8a8_ms": 13.16264999913983,
+   "one_worker_ms": 2.927169998292811,
+   "worker_vs_local_bf16": 0.4837545898683161,
+   "coded_total_serial_ms": 227.85239999454157,
+   "coordinator_overhead_ms_est": 204.43504000819908,
+   "coordinator_overhead_vs_local_bf16": 33.78566635745708
+  },
+  "Qwen2.5-7B up m=8192": {
+   "local_bf16_ms": 6.1816200002795085,
+   "local_w8a8_ms": 9.202320000622422,
+   "one_worker_ms": 5.4683800000930205,
+   "worker_vs_local_bf16": 0.8846192421801666,
+   "coded_total_serial_ms": 406.9112333333275,
+   "coordinator_overhead_ms_est": 363.16419333258335,
+   "coordinator_overhead_vs_local_bf16": 58.74903234365142
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 5000 Ada Generation",
+  "args": {
+   "tag": "hw",
+   "stages": [
+    "timing"
+   ],
+   "models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "drop_bf16": [
+    "Qwen/Qwen2.5-14B"
+   ],
+   "analog": false,
+   "windows": 20,
+   "seq": 1024,
+   "lambada": 500,
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 50,
+   "attn_windows": 4,
+   "attn_seq": 512,
+   "gen_n": 100,
+   "gen_w8a16_n": 40,
+   "gen_coded_n": 10,
+   "gen_max": 200,
+   "priv_model": "Qwen/Qwen2.5-7B",
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "attn_models": [
+    "Qwen/Qwen2.5-7B"
+   ],
+   "gen_models": [
+    "Qwen/Qwen2.5-7B"
+   ]
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 12.96157956123352
+}

@@ -1,0 +1,222 @@
+{
+ "result": {
+  "model": "Qwen/Qwen2.5-1.5B",
+  "layers": [
+   0,
+   7,
+   14,
+   27
+  ],
+  "coalition": [
+   2,
+   4
+  ],
+  "N": 8,
+  "k": 4,
+  "T": 2,
+  "prior_most_frequent_token_acc": 0.04830729216337204,
+  "prior_digit_acc": 0.1,
+  "train_prompts": 400,
+  "test_prompts": 60,
+  "canaries": 200,
+  "by_layer": {
+   "0": {
+    "uncoded": {
+     "token_acc": 0.9985677599906921,
+     "canary_digit_acc": 1.0,
+     "canary_full_pin": 1.0,
+     "final_loss": 2.685291474335827e-05
+    },
+    "analog_beta0": {
+     "token_acc": 0.7846354842185974,
+     "canary_digit_acc": 0.8608333333333333,
+     "canary_full_pin": 0.45,
+     "final_loss": 0.00017675102571956813
+    },
+    "analog_beta1": {
+     "token_acc": 0.7572265863418579,
+     "canary_digit_acc": 0.815,
+     "canary_full_pin": 0.32,
+     "final_loss": 0.00016458577010780573
+    },
+    "analog_beta10": {
+     "token_acc": 0.27031251788139343,
+     "canary_digit_acc": 0.16416666666666666,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0006113880081102252
+    },
+    "analog_beta100": {
+     "token_acc": 0.01640625111758709,
+     "canary_digit_acc": 0.005833333333333334,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.004427945241332054
+    },
+    "rns": {
+     "token_acc": 0.01673177257180214,
+     "canary_digit_acc": 0.011666666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0022322824224829674
+    }
+   },
+   "7": {
+    "uncoded": {
+     "token_acc": 0.9535807967185974,
+     "canary_digit_acc": 1.0,
+     "canary_full_pin": 1.0,
+     "final_loss": 0.01953061670064926
+    },
+    "analog_beta0": {
+     "token_acc": 0.5452474355697632,
+     "canary_digit_acc": 0.415,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00039463257417082787
+    },
+    "analog_beta1": {
+     "token_acc": 0.5029296875,
+     "canary_digit_acc": 0.38166666666666665,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00037178932689130306
+    },
+    "analog_beta10": {
+     "token_acc": 0.10143229365348816,
+     "canary_digit_acc": 0.03666666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0013614140916615725
+    },
+    "analog_beta100": {
+     "token_acc": 0.01621093787252903,
+     "canary_digit_acc": 0.006666666666666667,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0048709348775446415
+    },
+    "rns": {
+     "token_acc": 0.0172526054084301,
+     "canary_digit_acc": 0.005,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00209436914883554
+    }
+   },
+   "14": {
+    "uncoded": {
+     "token_acc": 0.9526693224906921,
+     "canary_digit_acc": 1.0,
+     "canary_full_pin": 1.0,
+     "final_loss": 3.999537875643e-05
+    },
+    "analog_beta0": {
+     "token_acc": 0.4791666865348816,
+     "canary_digit_acc": 0.255,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0003848503693006933
+    },
+    "analog_beta1": {
+     "token_acc": 0.44414064288139343,
+     "canary_digit_acc": 0.21916666666666668,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.00042706093518063426
+    },
+    "analog_beta10": {
+     "token_acc": 0.0706380233168602,
+     "canary_digit_acc": 0.0225,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.001819077879190445
+    },
+    "analog_beta100": {
+     "token_acc": 0.01614583469927311,
+     "canary_digit_acc": 0.013333333333333334,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.004736012779176235
+    },
+    "rns": {
+     "token_acc": 0.01588541828095913,
+     "canary_digit_acc": 0.0075,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.002171262865886092
+    }
+   },
+   "27": {
+    "uncoded": {
+     "token_acc": 0.8984375596046448,
+     "canary_digit_acc": 0.9991666666666666,
+     "canary_full_pin": 0.995,
+     "final_loss": 6.93179463269189e-05
+    },
+    "analog_beta0": {
+     "token_acc": 0.3993489742279053,
+     "canary_digit_acc": 0.2,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0005671317921951413
+    },
+    "analog_beta1": {
+     "token_acc": 0.3622395992279053,
+     "canary_digit_acc": 0.17166666666666666,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0004810508107766509
+    },
+    "analog_beta10": {
+     "token_acc": 0.06145833805203438,
+     "canary_digit_acc": 0.0275,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0016657127998769283
+    },
+    "analog_beta100": {
+     "token_acc": 0.01614583469927311,
+     "canary_digit_acc": 0.008333333333333333,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.004491404164582491
+    },
+    "rns": {
+     "token_acc": 0.01471354253590107,
+     "canary_digit_acc": 0.0033333333333333335,
+     "canary_full_pin": 0.0,
+     "final_loss": 0.0021788175217807293
+    }
+   }
+  }
+ },
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "stages": [
+    "timing",
+    "stress",
+    "attention",
+    "generate",
+    "privacy",
+    "tasks"
+   ],
+   "quick": false,
+   "force": false,
+   "task_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "HuggingFaceTB/SmolLM2-1.7B"
+   ],
+   "task_n": 500,
+   "w8a16_task_n": 200,
+   "coded_task_n": 100,
+   "attn_models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "attn_windows": 8,
+   "attn_seq": 512,
+   "gen_models": [
+    "Qwen/Qwen2.5-1.5B"
+   ],
+   "gen_n": 150,
+   "gen_w8a16_n": 80,
+   "gen_coded_n": 20,
+   "gen_max": 256,
+   "priv_model": "Qwen/Qwen2.5-1.5B"
+  },
+  "transformers": "5.19.0",
+  "datasets": "5.1.0"
+ },
+ "seconds": 5326.753504276276
+}

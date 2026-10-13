@@ -1,0 +1,379 @@
+{
+ "env": {
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "args": {
+   "models": [
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B"
+   ],
+   "windows": 40,
+   "seq": 1024,
+   "lambada": 1000,
+   "quick": false,
+   "skip_timing": false,
+   "out": "results_gpu.json"
+  }
+ },
+ "timing": {
+  "Llama-3-8B gate/up (m x 4096 x 14336), m=2048": {
+   "bf16_ms": 3.495810000003985,
+   "fp32_ms": 9.516419999999925,
+   "int8_ms": 1.0148800000024494,
+   "bf16_TFLOPS": 68.80184237007326,
+   "fp32_TFLOPS": 25.274017810899675,
+   "int8_TOPS": 236.99173160907648,
+   "rns_worker_ms(r=4,k=4)": 1.395595000008143,
+   "rns_worker_vs_local_bf16": 0.39921935116798457,
+   "analog_fp32_worker_vs_local_bf16": 0.6805590120736736,
+   "coordinator_encode_ms(4 primes)": 32.06511999997019,
+   "coordinator_decode_ms(4 primes)": 52.9463199996826
+  },
+  "Llama-3-8B down (m x 14336 x 4096), m=2048": {
+   "bf16_ms": 3.525804999981119,
+   "fp32_ms": 10.33926000000065,
+   "int8_ms": 0.9859150000011141,
+   "bf16_TFLOPS": 68.216526035129,
+   "fp32_TFLOPS": 23.262609565480012,
+   "int8_TOPS": 243.95426438965654,
+   "rns_worker_ms(r=4,k=4)": 1.0752800000091156,
+   "rns_worker_vs_local_bf16": 0.3049743250165207,
+   "analog_fp32_worker_vs_local_bf16": 0.7331134308374979,
+   "coordinator_encode_ms(4 primes)": 118.17375999999058,
+   "coordinator_decode_ms(4 primes)": 14.322879999963334
+  },
+  "Qwen2.5-7B up (m x 3584 x 18944), m=2048": {
+   "bf16_ms": 4.053180000005341,
+   "fp32_ms": 11.432280000008177,
+   "int8_ms": 1.1887950000073033,
+   "bf16_TFLOPS": 68.61257886786018,
+   "fp32_TFLOPS": 24.32578037065232,
+   "int8_TOPS": 233.93363230354393,
+   "rns_worker_ms(r=4,k=4)": 1.7227199999979348,
+   "rns_worker_vs_local_bf16": 0.4250292363022774,
+   "analog_fp32_worker_vs_local_bf16": 0.7051426287503338,
+   "coordinator_encode_ms(4 primes)": 26.60704000008991,
+   "coordinator_decode_ms(4 primes)": 69.91823999996996
+  },
+  "Llama-3-8B gate/up (m x 4096 x 14336), m=8192": {
+   "bf16_ms": 13.935859999992317,
+   "fp32_ms": 38.37963999994827,
+   "int8_ms": 4.251855000006799,
+   "bf16_TFLOPS": 69.03575913539103,
+   "fp32_TFLOPS": 25.06726676710091,
+   "int8_TOPS": 226.27128025355088,
+   "rns_worker_ms(r=4,k=4)": 5.789429999981621,
+   "rns_worker_vs_local_bf16": 0.4154339954609772,
+   "analog_fp32_worker_vs_local_bf16": 0.6885050509973807,
+   "coordinator_encode_ms(4 primes)": 135.57591999997385,
+   "coordinator_decode_ms(4 primes)": 211.77128000017547
+  },
+  "Llama-3-8B down (m x 14336 x 4096), m=8192": {
+   "bf16_ms": 13.866589999997814,
+   "fp32_ms": 39.87329999999929,
+   "int8_ms": 3.9891499999839652,
+   "bf16_TFLOPS": 69.38062453019464,
+   "fp32_TFLOPS": 24.128243067516784,
+   "int8_TOPS": 241.1723485724696,
+   "rns_worker_ms(r=4,k=4)": 4.456679999998414,
+   "rns_worker_vs_local_bf16": 0.32139696926202593,
+   "analog_fp32_worker_vs_local_bf16": 0.7188735658876043,
+   "coordinator_encode_ms(4 primes)": 473.1955999999627,
+   "coordinator_decode_ms(4 primes)": 60.43336000002455
+  },
+  "Qwen2.5-7B up (m x 3584 x 18944), m=8192": {
+   "bf16_ms": 16.17223499999909,
+   "fp32_ms": 45.942959999956656,
+   "int8_ms": 4.98574500002178,
+   "bf16_TFLOPS": 68.78434116645364,
+   "fp32_TFLOPS": 24.21255682404985,
+   "int8_TOPS": 223.11540795992187,
+   "rns_worker_ms(r=4,k=4)": 6.992424999998548,
+   "rns_worker_vs_local_bf16": 0.4323722107673393,
+   "analog_fp32_worker_vs_local_bf16": 0.7102135233620962,
+   "coordinator_encode_ms(4 primes)": 118.2172000000719,
+   "coordinator_decode_ms(4 primes)": 280.1658399999724
+  }
+ },
+ "models": {
+  "Qwen/Qwen2.5-1.5B": {
+   "wikitext": {
+    "windows": 40,
+    "seq": 1024,
+    "test_tokens_total": 299078
+   },
+   "coded_linear_layers": 196,
+   "bf16": {
+    "ppl": 9.426966552247764,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 4.322388172149658,
+    "lambada_acc": 0.614,
+    "lambada_n": 1000
+   },
+   "w8a8": {
+    "ppl": 9.67592586820598,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 7.131294250488281,
+    "lambada_acc": 0.587,
+    "lambada_n": 1000
+   },
+   "rns_w8a8": {
+    "ppl": 9.67592586820598,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 679.5644021034241,
+    "coded_gemms": 7840,
+    "exact_gemms": 7840,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "w8a16": {
+    "ppl": 9.439284413311348,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 25.07705068588257
+   },
+   "rns_w8a16": {
+    "ppl": 9.27599266638257,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 86.68743062019348,
+    "coded_gemms": 1960,
+    "exact_gemms": 1960,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "rns_w8a8_byzantine_rs": {
+    "ppl": 9.524554393514773,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 82.13672280311584,
+    "coded_gemms": 1960,
+    "exact_gemms": 1960,
+    "flagged": 1960,
+    "corrected": 1960
+   },
+   "rns_w8a8_byzantine_naive": {
+    "ppl": 61972070.962246485,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 38.820247411727905,
+    "coded_gemms": 1960,
+    "exact_gemms": 0,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "analog_bf16_beta1": {
+    "ppl": 9.511835515318705,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 9.968489646911621,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 2.490159903028761
+   },
+   "analog_bf16_beta10": {
+    "ppl": 10.57345101859378,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 9.85256838798523,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 0.3672251165776465
+   },
+   "analog_bf16_beta100": {
+    "ppl": 48079.36266865015,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 9.946593046188354,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta100": {
+    "ppl": 11.771637957805334,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 10.403883934020996,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta1000": {
+    "ppl": 10686474581524.463,
+    "tokens": 20460,
+    "nonfinite_windows": 20,
+    "sec": 10.05832052230835,
+    "overflow": true,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta1000": {
+    "ppl": 9.489968323332866,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 15.35967230796814,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta10000": {
+    "ppl": 9.514126917534375,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 15.333474397659302,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 5.403450066230443e-07
+   },
+   "bf16_on_analog_subset": {
+    "ppl": 9.489244295519528,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 2.123853921890259
+   },
+   "w8a8_on_analog_subset": {
+    "ppl": 9.742837271374949,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 3.630596399307251
+   }
+  },
+  "Qwen/Qwen2.5-3B": {
+   "wikitext": {
+    "windows": 40,
+    "seq": 1024,
+    "test_tokens_total": 299078
+   },
+   "coded_linear_layers": 252,
+   "bf16": {
+    "ppl": 8.157680885305346,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 7.868442535400391,
+    "lambada_acc": 0.67,
+    "lambada_n": 1000
+   },
+   "w8a8": {
+    "ppl": 8.49279155921266,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 11.702571868896484,
+    "lambada_acc": 0.663,
+    "lambada_n": 1000
+   },
+   "rns_w8a8": {
+    "ppl": 8.49279155921266,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 425.0403542518616,
+    "coded_gemms": 10080,
+    "exact_gemms": 10080,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "w8a16": {
+    "ppl": 8.168942869830143,
+    "tokens": 40920,
+    "nonfinite_windows": 0,
+    "sec": 38.154242277145386
+   },
+   "rns_w8a16": {
+    "ppl": 8.048035612960087,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 280.5998065471649,
+    "coded_gemms": 2520,
+    "exact_gemms": 2520,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "rns_w8a8_byzantine_rs": {
+    "ppl": 8.407690901862317,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 245.87937688827515,
+    "coded_gemms": 2520,
+    "exact_gemms": 2520,
+    "flagged": 2520,
+    "corrected": 2520
+   },
+   "rns_w8a8_byzantine_naive": {
+    "ppl": 99293487.47477391,
+    "tokens": 10230,
+    "nonfinite_windows": 0,
+    "sec": 144.9677288532257,
+    "coded_gemms": 2520,
+    "exact_gemms": 0,
+    "flagged": 0,
+    "corrected": 0
+   },
+   "analog_bf16_beta1": {
+    "ppl": 8.254824400616076,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 79.12438917160034,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 2.490159903028761
+   },
+   "analog_bf16_beta10": {
+    "ppl": 8.27729867269301,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 78.93183422088623,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 0.3672251165776465
+   },
+   "analog_bf16_beta100": {
+    "ppl": 699.9530540291945,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 79.15557956695557,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta100": {
+    "ppl": 10686474581524.463,
+    "tokens": 20460,
+    "nonfinite_windows": 20,
+    "sec": 132.73356413841248,
+    "overflow": true,
+    "leak_per_entry_worst_pair_nats": 0.00537464463842308
+   },
+   "analog_fp16_beta1000": {
+    "ppl": 10686474581524.463,
+    "tokens": 20460,
+    "nonfinite_windows": 20,
+    "sec": 131.37880945205688,
+    "overflow": true,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta1000": {
+    "ppl": 8.25314152855536,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 98.0672390460968,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 5.403162837496089e-05
+   },
+   "analog_fp32_beta10000": {
+    "ppl": 8.254045833271288,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 98.54217791557312,
+    "overflow": false,
+    "leak_per_entry_worst_pair_nats": 5.403450066230443e-07
+   },
+   "bf16_on_analog_subset": {
+    "ppl": 8.252935803710999,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 3.896219491958618
+   },
+   "w8a8_on_analog_subset": {
+    "ppl": 8.614488929998771,
+    "tokens": 20460,
+    "nonfinite_windows": 0,
+    "sec": 15.713329553604126
+   }
+  }
+ }
+}

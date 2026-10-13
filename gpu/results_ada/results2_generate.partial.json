@@ -1,0 +1,30 @@
+{
+ "Qwen/Qwen2.5-7B": {
+  "bf16": {
+   "acc": 0.42,
+   "n": 100,
+   "sec": 431.70649766921997,
+   "gen_tokens": 11592
+  },
+  "w8a8": {
+   "acc": 0.58,
+   "n": 100,
+   "sec": 1309.7069728374481,
+   "gen_tokens": 11521
+  },
+  "rns_w8a8": {
+   "acc": 0.5,
+   "n": 10,
+   "sec": 1037.7787261009216,
+   "gen_tokens": 1223,
+   "stats": {
+    "gemms": 239708,
+    "exact": 239708,
+    "flagged": 0,
+    "corrected": 0,
+    "aborted": 0
+   },
+   "token_identical_to_w8a8": 10
+  }
+ }
+}

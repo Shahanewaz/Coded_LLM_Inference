@@ -1,0 +1,78 @@
+{
+ "target": " Paris",
+ "evil_worker": 3,
+ "ops": [
+  "h8.mlp.c_proj",
+  "h9.mlp.c_proj",
+  "h10.mlp.c_proj",
+  "h11.mlp.c_proj"
+ ],
+ "N": 8,
+ "k": 4,
+ "T": 2,
+ "m": 256,
+ "honest_row_norm": {
+  "h8.mlp.c_proj": 28.596787821180705,
+  "h9.mlp.c_proj": 35.06704257556422,
+  "h10.mlp.c_proj": 66.11526987080137,
+  "h11.mlp.c_proj": 72.0121712666139
+ },
+ "ff": {
+  "clean": {
+   "nll": 3.4310828975082743,
+   "ppl": 30.91009709972146,
+   "target_hit_block0": 0.0,
+   "detected_frac": 0.0
+  },
+  "naive": {
+   "nll": 25.1172521251856,
+   "ppl": 80962516494.50432,
+   "target_hit_block0": 0.8932291666666666,
+   "detected_frac": 0.0
+  },
+  "rs": {
+   "nll": 3.4310828975082743,
+   "ppl": 30.91009709972146,
+   "target_hit_block0": 0.0,
+   "detected_frac": 1.0
+  }
+ },
+ "analog": {
+  "bf16_beta1": {
+   "clean": {
+    "ppl": 30.532813816233606,
+    "target_hit": 0.0,
+    "detected_frac": 0.6666666666666666
+   },
+   "stealth": {
+    "ppl": 30.52875842080095,
+    "target_hit": 0.0,
+    "detected_frac": 1.0
+   },
+   "stealth_amp_per_row": {
+    "h8.mlp.c_proj": 0.09756084132875689,
+    "h9.mlp.c_proj": 0.11848090699481295,
+    "h10.mlp.c_proj": 0.16807052307544001,
+    "h11.mlp.c_proj": 0.21723949286265515
+   }
+  },
+  "bf16_beta10": {
+   "clean": {
+    "ppl": 30.595726654424986,
+    "target_hit": 0.0,
+    "detected_frac": 0.8333333333333334
+   },
+   "stealth": {
+    "ppl": 30.538825297110144,
+    "target_hit": 0.0,
+    "detected_frac": 1.0
+   },
+   "stealth_amp_per_row": {
+    "h8.mlp.c_proj": 0.630849991843436,
+    "h9.mlp.c_proj": 0.7634209300812266,
+    "h10.mlp.c_proj": 0.9752047772965448,
+    "h11.mlp.c_proj": 1.2246848874531462
+   }
+  }
+ }
+}
